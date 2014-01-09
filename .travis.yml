@@ -1,5 +1,8 @@
 language: ruby
 branches: master
+gemfile:
+  - gemfiles/travis.rspec-2
+  - gemfiles/travis.rspec-3
 rvm:
   - 1.9.2
   - 1.9.3
